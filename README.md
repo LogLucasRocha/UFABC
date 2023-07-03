@@ -1,2 +1,0 @@
-# UFABC
-Projetos e Exercicios 
