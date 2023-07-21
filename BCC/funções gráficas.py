@@ -1,6 +1,5 @@
-import math
-import numpy as np
 import matplotlib.pyplot as plot
+import numpy as np
 
 # Estudo de funções gráficas e arrays
 
@@ -14,16 +13,16 @@ import matplotlib.pyplot as plot
 # plot.grid(True, which="both")
 # plot.show()
 
-#Segundo Gráfico com raízes reais
+# Segundo Gráfico com raízes reais
 
 x = np.arange(1, 4.1, 0.1)
-y = x ** 2 - 5*x + 6
+y = x ** 2 - 5 * x + 6
 plot.plot(x, y)
 plot.grid(True, which="both")
 plot.title("y = x^2 - 5x + 6")
 plot.xlabel("X")
 plot.ylabel("Y")
 plot.grid(True, which="both")
-plot.plot(2,0,'r*')
-plot.plot(3,0,'g*')
+plot.plot(2, 0, 'r*')
+plot.plot(3, 0, 'g*')
 plot.show()
