@@ -22,7 +22,5 @@ plot.title("y = x^2 - 5x + 6")
 plot.xlabel("X")
 plot.ylabel("Y")
 plot.grid(True, which="both")
-plot.plot(2, 0, 'r*')
-plot.plot(3, 0, 'g*')
+plot.plot([2, 3], [0, 0], "o")
 plot.show()
-
