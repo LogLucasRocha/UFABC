@@ -4,5 +4,5 @@ for l in range(0, x):
     y = float(input())
     s += y
 
-print("Total: {}".format(s))
+print("Total: {:.2f}".format(s))
 
