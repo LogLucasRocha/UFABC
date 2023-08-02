@@ -10,10 +10,10 @@ def inverse(phrase_lower):
 
 
 if remove(phrase_lower) == remove(inverse(phrase_lower)):
-    print('A frase "{}" forma um políndromo.'.format(phrase_lower))
+    print('A frase "{}" forma um palíndromo.'.format(phrase_lower))
 else:
-    print('Não é um políndromo.')
-
+    print('Não é um palíndromo.')
+ 
 
 
 
