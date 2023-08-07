@@ -7,4 +7,4 @@ if n > 0:
         soma_r += i
     print(soma_r)
 else:
-    print('input inválido!')
+    print(.'input inválido!')
